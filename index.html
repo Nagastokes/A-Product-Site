@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Site</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main class="w-full h-full">
+        <div class="navbar w-full h-[3vw] text-center leading-none py-1 ">
+            <h1 class="font-bold text-[1.5vw]">Product Showcase</h1>
+            <h6 class="text-[0.8vw]">Explore Our Amazing Products!</h6>
+        </div>
+        <div class="content  w-full h-[90%] px-30 py-5 grid grid-rows-2 grid-cols-4 gap-8">
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a earpods">
+                </div>
+                <div class="contentbox flex flex-col items-center">
+                    <h2>Awesome Gadget</h2>
+                <h3 class="text-center">A super cool gadget for tech lovers.</h3>
+                <h2>$99.99</h2>
+                </div>
+            </div>
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1718913936342-eaafff98834b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww" alt="a tshirt">
+                </div>
+                <div class="contentbox flex flex-col items-center">
+                    <h2>Stylish T-shirt</h2>
+                <h3 class="text-center">Comfortable and trendy t-shirt for everyday wear.</h3>
+                <h2>$24.99</h2>
+                </div>
+            </div>
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1673422506808-ad558246598a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG11Z3xlbnwwfHwwfHx8MA%3D%3D" alt="a mug">
+                </div>
+                <div class="contentbox flex flex-col items-center">
+                    <h2>Cozy Coffee Mug</h2>
+                <h3 class="text-center">Enjoy your morning coffee in this beautiful mug.</h3>
+                <h2>$12.50</h2>
+                </div>
+            </div>
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1551515300-2d3b7bb80920?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGElMjBjb21wdXRlciUyMG1vdXNlfGVufDB8fDB8fHww" alt="a mouse">
+                </div>
+                <h2>Ergonomic Mouse</h2>
+                <h3 class="text-center">Work comfortably with this ergonomic mouse. </h3>
+                <h2>$35.00</h2>
+            </div>
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhZHBob25lfGVufDB8fDB8fHww" alt="a headphone">
+                </div>
+                <div class="contentbox flex flex-col items-center">
+                    <h2>Wireless Headphones</h2>
+                <h3 class="text-center">Enjoy music on the go with this wirless headphones.</h3>
+                <h2>$75.00</h2>
+                </div>
+            </div>
+            <div class="icontent border-1 border-grey-300 rounded-[15px] p-4 flex flex-col items-center gap-1">
+                <div class="ibox w-full h-50 bg-black rounded-[10px] overflow-hidden">
+                    <img class="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbGV0fGVufDB8fDB8fHww" alt="a wallet">
+                </div>
+                <div class="contentbox flex flex-col items-center">
+                    <h2>Leather wallet</h2>
+                <h3 class="text-center">A classic and durable leather wallet.</h3>
+                <h2>$45.00</h2>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footer">
+            <p class="text-center">&copy 2023 Product Showcase</p>
+        </div>
+    </main>
+</body>
+</html>
